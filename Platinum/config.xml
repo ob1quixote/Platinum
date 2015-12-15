@@ -6,16 +6,6 @@
   <content src="index.html" />
   <access origin="*" />
   <vs:features />
-
-  <gap:plugin name="org.apache.cordova.splashscreen" />  
-  <preference name="SplashScreen" value="screen" />
-  <preference name="ShowSplashScreenSpinner" value="false" />
-  <!-- Do not auto hide splash on iOS -->
-  <preference name="AutoHideSplashScreen" value="false" />
-  <!-- Do not auto hide splash on Android -->
-  <preference name="SplashScreenDelay" value="10000"/>
-
-  
   <preference name="windows-target-version" value="8.1" />
   <preference name="windows-phone-target-version" value="8.1" />
   <platform name="android">
@@ -103,5 +93,4 @@
   <preference name="ShowTitle" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
-  <vs:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
 </widget>
