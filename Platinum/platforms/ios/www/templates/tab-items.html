@@ -1,0 +1,13 @@
+﻿<ion-view view-title="Items">
+    <ion-content>
+        <button class="button button-icon ion-plus" ng-click="addItem()">Add Item</button>
+        <ion-list>
+            <ion-item ng-repeat="item in items" ng-class="{purchased: item.status == 'purchased'}">
+                {{item.name}}
+                <ion-option-button class="button-assertive" ng-click="purchaseItem(item)">
+                    <i class="icon ion-checkmark"></i>
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
