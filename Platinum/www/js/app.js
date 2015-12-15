@@ -20,9 +20,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       StatusBar.styleLightContent();
     }
 
-    setTimeout(function () {
-        navigator.splashscreen.hide();
-    }, 100);
+    navigator.splashscreen.hide();
+    
   });
 })
 
